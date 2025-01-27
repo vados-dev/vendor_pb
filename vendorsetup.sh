@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-for combo in $(curl -s https://raw.githubusercontent.com/PitchBlackRecoveryProject/vendor_pb/pb/pb.devices)
+for combo in $(curl -s https://raw.githubusercontent.com/vados-dev/vendor_pb/pb-dev/pb.devices)
 do
     add_lunch_combo omni_$combo-eng
 done
